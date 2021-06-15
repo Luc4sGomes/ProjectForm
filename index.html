@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/Global.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/Global.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="container">
-        <h1>Formulario de cadastro</h1>
+      <h1>Formulario de cadastro</h1>
 
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+      <ul>
+        <li>Nenhum campo pode estar vazio</li>
+        <li>Usuario so podera conter letras e/ ou numeros</li>
+        <li>Usuario usuario devera ter entre 3 e 12 caracteres</li>
+        <li>Senha precisa ter entre 6 e 12 caracteres</li>
+      </ul>
 
-        <form action="/" method="POST" class="form">
-            <label for="nome">nome</label>
-            <input type="text" class="nome">
+      <form action="/" method="POST" class="form">
+        <fieldset>
+          <label for="nome">nome</label>
+          <input type="text" class="nome" />
 
-            <label for="sobrenome">Sobrenome</label>
-            <input type="text" class="sobrenome">
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" class="sobrenome" />
 
-            <label for="cpf">CPF</label>
-            <input type="text" class="cpf">
+          <label for="cpf">CPF</label>
+          <input type="text" class="cpf" />
 
-            <label for="usuario">usuario</label>
-            <input type="text" class="usuario">
+          <label for="usuario">usuario</label>
+          <input type="text" class="usuario" />
 
-            <label for="senha">senha</label>
-            <input type="text" class="senha">
+          <label for="senha">senha</label>
+          <input type="text" class="senha" />
 
-            <label for="repetir-senha">repetir senha</label>
-            <input type="text" class="repetir-senha">
+          <label for="repetir-senha">repetir senha</label>
+          <input type="text" class="repetir-senha" />
+        </fieldset>
 
-            <button type="submit" id="button">Enviar</button>
-        </form>
-
+        <button type="submit" id="button">Enviar</button>
+      </form>
     </section>
 
     <script src="./assets/scripts/scripts.js"></script>
-</body>
+  </body>
 </html>
