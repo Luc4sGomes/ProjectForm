@@ -1,0 +1,24 @@
+:root {
+  --light-purple: #6c33a3;
+  --dark-purple: #8241b8;
+  --white-smoke: #ffffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--light-purple);
+  background-image: linear-gradient(
+    316deg,
+    var(--light-purple) 0%,
+    var(--dark-purple) 74%
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100;
+}
