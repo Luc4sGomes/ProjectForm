@@ -45,7 +45,7 @@ li{
 
 form fieldset{
     background-color: var(--dark-gray);
-    height: 380px;
+    height: 390px;
     width: 480px;
     border: none;
     border-radius: 6px;
@@ -78,5 +78,36 @@ input{
 }
 
 input:focus{
+    background-color: var(--light-purple);
+}
+
+
+.keep-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+#button{
+    border: none;
+    background-color: var(--dark-gray);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    height: 70%;
+    width: 100%;
+    margin-top: 6px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    transform-style: preserve-3d;
+    transition: 200ms all ease-in-out;
+}
+
+#button:hover{
     background-color: var(--light-purple);
 }
