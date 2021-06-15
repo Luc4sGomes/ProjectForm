@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/Global.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
-    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" 
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/Elements.css">
+    <link rel="stylesheet" href="./assets/css/Classes.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
     <link rel="shortcut icon" href="#" />
     <title>Document</title>
   </head>
@@ -24,34 +29,32 @@
 
       <form action="/" method="POST" id="form">
         <fieldset>
-          <label for="nome">nome</label>
-          <input type="text" class="nome" />
+          <label for="nome">nome:</label>
+          <input type="text" class="nome validar" />
 
-          <label for="sobrenome">Sobrenome</label>
-          <input type="text" class="sobrenome" />
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" class="sobrenome validar" />
 
-          <label for="cpf">CPF</label>
-          <input type="text" class="cpf" />
+          <label for="cpf">CPF:</label>
+          <input type="text" class="cpf validar" />
 
-          <label for="usuario">usuario</label>
-          <input type="text" class="usuario" />
+          <label for="usuario">usuario:</label>
+          <input type="text" class="usuario validar" />
 
-          <label for="senha">senha</label>
-          <input type="text" class="senha" />
+          <label for="senha">senha:</label>
+          <input type="password" class="senha validar" />
 
-          <label for="repetir-senha">repetir senha</label>
-          <input type="text" class="repetir-senha" />
-
+          <label for="repetir-senha">repetir senha:</label>
+          <input type="password" class="repetir-senha validar" />
         </fieldset>
 
         <div class="keep-button">
-            <button type="submit" id="button">Enviar</button>
+          <button type="submit" id="button">Enviar</button>
         </div>
-
-        
       </form>
     </section>
 
+    <script src="assets/scripts/validacpf.js"></script>
     <script src="./assets/scripts/scripts.js"></script>
   </body>
 </html>

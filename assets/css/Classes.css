@@ -8,11 +8,11 @@
     justify-content: space-around;
     flex-flow: column wrap;
   }
-  
-  .keep-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 100%;
+
+  .error-text{
+      font-size: 1.05rem;
+      color: red;
+      font-weight: bold;
+      text-transform: uppercase;
   }
+  

@@ -2,7 +2,7 @@
   --dark-purple: #6c33a3;
   --light-purple: #8241b8;
   --white-smoke: #ffffffff;
-  --dark-gray: #A9A9A9;
+  --dark-gray: #a9a9a9;
 }
 
 * {
@@ -27,97 +27,32 @@ body {
   justify-content: center;
 }
 
-li{
-    list-style: none;
-    font-size: 1.5rem;
+
+
+#button {
+  border: none;
+  background-color: var(--dark-gray);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  height: 70%;
+  width: 100%;
+  margin-top: 6px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+  transition: 200ms all ease-in-out;
 }
 
-h1{
-    font-size: 2rem;
+#button:hover {
+  background-color: var(--light-purple);
 }
 
-.container{
-    background-color: var(--white-smoke);
-    border-radius: 0.5rem;
-    height: 90vh;
-    width: 50vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-flow: column wrap;
-}
-
-form fieldset{
-    background-color: var(--dark-gray);
-    height: 390px;
-    width: 480px;
-    border: none;
-    border-radius: 0.375rem;
-    padding: 0.625rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column wrap;
-}
-
-form fieldset input,label{
-    width: 96%;
-    display: block;
-}
-
-form fieldset label{
-    font-weight: bold;
-    font-size: small;
-    margin-bottom: 0.125rem;
-}
-
-input{
-    margin-bottom: 0.625rem;
-    border: none;
-    outline: none;
-    padding: 0.75rem;
-    border-radius: 0.25rem;
-    transition: 200ms all ease-in-out;
-    font-size: 0.875rem;
-}
-
-input:focus{
-    background-color: var(--light-purple);
-}
-
-
-.keep-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-}
-
-#button{
-    border: none;
-    background-color: var(--dark-gray);
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 12px;
-    padding: 10px;
-    height: 70%;
-    width: 100%;
-    margin-top: 6px;
-    letter-spacing: 2px;
-    cursor: pointer;
-    position: relative;
-    text-transform: uppercase;
-    transform-style: preserve-3d;
-    transition: 200ms all ease-in-out;
-}
-
-#button:hover{
-    background-color: var(--light-purple);
-}
-
-@media(min-width: 340px){
-    :root{
-        font-size: 62.5%;
-    }
+@media (min-width: 340px) {
+  :root {
+    font-size: 62.5%;
+  }
 }
